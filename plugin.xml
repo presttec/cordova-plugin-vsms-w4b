@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-vsms-w4b" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>w4b</name>
+    <js-module name="w4b" src="www/w4b.js">
+        <clobbers target="cordova.plugins.w4b" />
+    </js-module>
+</plugin>

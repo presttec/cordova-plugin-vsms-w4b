@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-vsms-w4b",
+  "version": "0.0.1",
+  "description": "Send Message",
+  "cordova": {
+    "id": "cordova-plugin-vsms-w4b",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/presttec/cordova-plugin-vsms-w4b.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "PrestTEC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/presttec/cordova-plugin-vsms-w4b/issues"
+  },
+  "homepage": "https://github.com/presttec/cordova-plugin-vsms-w4b#readme"
+}
