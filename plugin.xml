@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-vsms-w4b"
-    version="0.0.1">
+    version="0.0.2">
     <name>W4b</name>
     <description>W4b Plugin</description>
     <keywords>w4b</keywords>
