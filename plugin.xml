@@ -1,7 +1,33 @@
-<?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-vsms-w4b" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>w4b</name>
-    <js-module name="w4b" src="www/w4b.js">
-        <clobbers target="cordova.plugins.w4b" />
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-vsms-w4b"
+    version="0.0.1">
+    <name>W4b</name>
+    <description>W4b Plugin</description>
+    <keywords>w4b</keywords>
+
+    <author>Ranjit Pandit</author>
+
+    <license>MIT</license>
+
+    <repo>https://github.com/presttec/cordova-plugin-vsms-w4b.git</repo>
+
+    <issue>https://github.com/presttec/cordova-plugin-vsms-w4b/issues</issue>
+
+    <js-module src="www/w4b.js" name="w4b">
+        <clobbers target="cordova.plugins.W4b" />
     </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="W4b">
+                <param name="android-package" value="br.com.vsms.W4b" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/W4b.java" target-dir="src/br/com/vsms/w4b" />
+    </platform>
+
 </plugin>
